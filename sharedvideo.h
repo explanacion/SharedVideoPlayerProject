@@ -2,6 +2,8 @@
 #define SHAREDVIDEO_H
 
 #include <QMainWindow>
+#include <QtAV>
+#include <QtAVWidgets>
 
 namespace Ui {
 class SharedVideo;

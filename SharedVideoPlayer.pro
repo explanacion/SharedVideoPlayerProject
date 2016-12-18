@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui avwidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -18,3 +18,7 @@ SOURCES += main.cpp\
 HEADERS  += sharedvideo.h
 
 FORMS    += sharedvideo.ui
+
+LIBS += -L"C:\Qt\projects\QtAV-depends-windows-x86+x64\lib"
+INCLUDEPATH += "C:\Qt\projects\QtAV-depends-windows-x86+x64\include"
+
