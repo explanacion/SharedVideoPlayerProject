@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui avwidgets
+QT       += core gui avwidgets network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
